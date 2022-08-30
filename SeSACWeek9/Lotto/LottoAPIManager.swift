@@ -23,6 +23,7 @@ class LottoAPIManager {
         
         let url = URL(string: "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=\(drwNo)")!
         
+        // 어떻게 적용한담...
 //        URLSession.request(endpoint: url) { Lotto.self, APIError? in
 //            URLSession.customDatTask(endpoint, completionHandler: <#T##completionHandler#>)
 //        }
