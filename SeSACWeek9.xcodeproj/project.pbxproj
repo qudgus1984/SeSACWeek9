@@ -18,6 +18,8 @@
 		2F7EE97B28BDA732000F1F41 /* PersonAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE97A28BDA732000F1F41 /* PersonAPIManager.swift */; };
 		2F7EE97D28BDA888000F1F41 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE97C28BDA888000F1F41 /* Person.swift */; };
 		2F7EE97F28BDB769000F1F41 /* URLSession + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE97E28BDB769000F1F41 /* URLSession + Extension.swift */; };
+		2FD16D0828BEF8D2003D40EF /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16D0728BEF8D2003D40EF /* Observable.swift */; };
+		2FD16D0A28BEFC4B003D40EF /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD16D0928BEFC4B003D40EF /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2F7EE97A28BDA732000F1F41 /* PersonAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPIManager.swift; sourceTree = "<group>"; };
 		2F7EE97C28BDA888000F1F41 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2F7EE97E28BDB769000F1F41 /* URLSession + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extension.swift"; sourceTree = "<group>"; };
+		2FD16D0728BEF8D2003D40EF /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2FD16D0928BEFC4B003D40EF /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				2F7EE96928BD94ED000F1F41 /* Assets.xcassets */,
 				2F7EE96B28BD94ED000F1F41 /* LaunchScreen.storyboard */,
 				2F7EE96E28BD94ED000F1F41 /* Info.plist */,
+				2FD16D0728BEF8D2003D40EF /* Observable.swift */,
 			);
 			path = SeSACWeek9;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				2F7EE97A28BDA732000F1F41 /* PersonAPIManager.swift */,
 				2F7EE97C28BDA888000F1F41 /* Person.swift */,
+				2FD16D0928BEFC4B003D40EF /* PersonViewModel.swift */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -170,9 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7EE96528BD94EC000F1F41 /* ViewController.swift in Sources */,
+				2FD16D0A28BEFC4B003D40EF /* PersonViewModel.swift in Sources */,
 				2F7EE97828BD9BBD000F1F41 /* Lotto.swift in Sources */,
 				2F7EE96128BD94EC000F1F41 /* AppDelegate.swift in Sources */,
 				2F7EE97B28BDA732000F1F41 /* PersonAPIManager.swift in Sources */,
+				2FD16D0828BEF8D2003D40EF /* Observable.swift in Sources */,
 				2F7EE97D28BDA888000F1F41 /* Person.swift in Sources */,
 				2F7EE96328BD94EC000F1F41 /* SceneDelegate.swift in Sources */,
 				2F7EE97F28BDB769000F1F41 /* URLSession + Extension.swift in Sources */,

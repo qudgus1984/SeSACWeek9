@@ -28,6 +28,8 @@ class LottoAPIManager {
 //            URLSession.customDatTask(endpoint, completionHandler: <#T##completionHandler#>)
 //        }
         
+//        URLSession.request(endpoint: <#T##URLRequest#>, completion: <#T##((Decodable & Encodable)?, APIError?) -> Void#>)
+        
         URLSession.shared.dataTask(with: url) { data, response, error in
             
             DispatchQueue.main.async {
