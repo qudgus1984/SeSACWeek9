@@ -10,7 +10,6 @@ import Foundation
 class Observable<T> { // 양방향 바인딩
     
     private var listener: ((T) -> Void)?
-
     
     var value: T {
         didSet {
@@ -30,18 +29,3 @@ class Observable<T> { // 양방향 바인딩
     }
 }
 
-//class User {
-//
-//    private var listener: ((String) -> Void)?
-//
-//    var value: String {
-//        didSet {
-//            print("데이터 바뀌었어")
-//            listener?(value)
-//        }
-//    }
-//
-//    init(_ name: String) {
-//        value = name
-//    }
-//}
