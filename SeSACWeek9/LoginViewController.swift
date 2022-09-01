@@ -37,7 +37,10 @@ class LoginViewController: UIViewController {
         }
     }
     
-
+    @IBAction func loginButtonClicked(_ sender: UIButton) {
+        //화면 전환 코드
+    }
+    
     @IBAction func nameTextFieldChanged(_ sender: UITextField) {
         viewModel.name.value = nameTextField.text!
         viewModel.checkVaildation()

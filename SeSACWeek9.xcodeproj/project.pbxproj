@@ -10,6 +10,8 @@
 		2F277E8A28C037FD005B2FC9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F277E8928C037FD005B2FC9 /* Sample.swift */; };
 		2F277E8C28C04854005B2FC9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F277E8B28C04854005B2FC9 /* LoginViewController.swift */; };
 		2F277E8E28C049FE005B2FC9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F277E8D28C049FE005B2FC9 /* LoginViewModel.swift */; };
+		2F277E9028C05AE7005B2FC9 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F277E8F28C05AE7005B2FC9 /* LottoViewController.swift */; };
+		2F277E9228C05C15005B2FC9 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F277E9128C05C15005B2FC9 /* LottoViewModel.swift */; };
 		2F7EE96128BD94EC000F1F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE96028BD94EC000F1F41 /* AppDelegate.swift */; };
 		2F7EE96328BD94EC000F1F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE96228BD94EC000F1F41 /* SceneDelegate.swift */; };
 		2F7EE96528BD94EC000F1F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EE96428BD94EC000F1F41 /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 		2F277E8928C037FD005B2FC9 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		2F277E8B28C04854005B2FC9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2F277E8D28C049FE005B2FC9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2F277E8F28C05AE7005B2FC9 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		2F277E9128C05C15005B2FC9 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
 		2F7EE95D28BD94EC000F1F41 /* SeSACWeek9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7EE96028BD94EC000F1F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F7EE96228BD94EC000F1F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				2F7EE97528BD950C000F1F41 /* LottoAPIManager.swift */,
 				2F7EE97728BD9BBD000F1F41 /* Lotto.swift */,
+				2F277E8F28C05AE7005B2FC9 /* LottoViewController.swift */,
+				2F277E9128C05C15005B2FC9 /* LottoViewModel.swift */,
 			);
 			path = Lotto;
 			sourceTree = "<group>";
@@ -187,7 +193,9 @@
 				2F277E8C28C04854005B2FC9 /* LoginViewController.swift in Sources */,
 				2F7EE96528BD94EC000F1F41 /* ViewController.swift in Sources */,
 				2FD16D0A28BEFC4B003D40EF /* PersonViewModel.swift in Sources */,
+				2F277E9028C05AE7005B2FC9 /* LottoViewController.swift in Sources */,
 				2F7EE97828BD9BBD000F1F41 /* Lotto.swift in Sources */,
+				2F277E9228C05C15005B2FC9 /* LottoViewModel.swift in Sources */,
 				2F7EE96128BD94EC000F1F41 /* AppDelegate.swift in Sources */,
 				2F7EE97B28BDA732000F1F41 /* PersonAPIManager.swift in Sources */,
 				2FD16D0828BEF8D2003D40EF /* Observable.swift in Sources */,

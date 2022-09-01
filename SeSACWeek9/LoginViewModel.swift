@@ -20,4 +20,11 @@ class LoginViewModel {
             isValid.value = false
         }
     }
+    
+    func signIn(completion: @escaping () -> Void) {
+        
+        UserDefaults.standard.set(name.value, forKey: "name")
+        
+        completion()
+    }
 }
